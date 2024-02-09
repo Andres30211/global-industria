@@ -9,6 +9,13 @@
 	.enlaces_pie div{
 		margin-bottom: 0.6rem;
 	}
+
+	.contacto a{
+		text-align: center;
+		position: absolute;
+		left: 32%;
+		top: 59%;
+	}
 }
 
 @media(max-width: 800px){
@@ -53,6 +60,13 @@
 	.carousel{
 		width: 100%;
 	}
+
+	.contacto a{
+		text-align: center;
+		position: absolute;
+		left: 33%;
+		top: 59%;
+	}
 }
 
 @media(max-width: 600px){
@@ -75,6 +89,13 @@
 
 	.carousel{
 		width: 100%;
+	}
+
+	.contacto a{
+		text-align: center;
+		position: absolute;
+		left: 30%;
+		top: 50%;
 	}
 }
 
@@ -134,5 +155,12 @@
 
 	.carousel{
 		width: 100%;
+	}
+
+	.contacto a{
+		text-align: center;
+		position: absolute;
+		left: 30%;
+		top: 59%;
 	}
 }
