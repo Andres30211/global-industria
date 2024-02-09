@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boton{
+	font-size: 1rem;
+	padding: 0.8rem 0 0.8rem 0;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	display: inline-block;
+}
+
+.boton-gris{
+	background-color: darkgray;
+	color: black;
+}
+
+.boton-amarillo{
+	background-color: rgb(226, 226, 135);
+	color: black;
+}

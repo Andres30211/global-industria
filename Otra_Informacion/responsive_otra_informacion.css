@@ -1,0 +1,45 @@
+@media(max-width: 1030px){
+    .content_zone{
+        width: 60%;
+    }
+}
+
+@media(max-width: 860px){
+    .content_zone{
+        width: 70%;
+    }
+}
+
+@media(max-width: 740px){
+    .content_zone{
+        width: 80%;
+    }
+
+    .articles_htmlCssJs{
+        width: 80%;
+    }
+}
+
+@media(max-width: 650px){
+    .zone{
+        width: 50%;
+    }
+}
+
+@media(max-width: 520px){
+    .zone{
+        width: 60%;
+    }
+}
+
+@media(max-width: 440px){
+    .zone{
+        width: 70%;
+    }
+}
+
+@media(max-width: 380px){
+    .zone{
+        width: 80%;
+    }
+}

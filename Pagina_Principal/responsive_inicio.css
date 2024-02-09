@@ -1,0 +1,126 @@
+@media(max-width: 920px){
+
+	.enlaces_pie{
+		display: inline-block;
+        margin: 0.5rem;
+		text-align: center;
+	}
+
+	.enlaces_pie div{
+		margin-bottom: 0.6rem;
+	}
+}
+
+@media(max-width: 800px){
+
+	.contenedor_navbar{
+		display: block;
+		text-align: center;
+	}
+
+	.contenedor_navbar h2{
+		margin-bottom: 1rem;
+	}
+
+	.navbar_licks{
+		justify-content: center;
+	}
+
+	.acerca{
+		display: block;
+		text-align: center;
+	}
+
+	.acerca .carousel{
+		margin-bottom: 1rem;
+	}
+
+	.carousel-images img{
+		width: 100%;
+		height: auto;
+		border-radius: 2rem;
+	}
+
+	.servicio{
+		width: 60%;
+	}
+
+	.contenedor_enlaces{
+		display: block;
+		text-align: center;
+	}
+}
+
+@media(max-width: 600px){
+	
+	.navbar_licks{
+		display: block;	
+	}
+
+	.navbar_licks div{
+		margin-bottom: 1rem;
+	}
+
+	.title{
+		margin: 5rem 0;
+	}
+
+	.contacto a{
+		width: 30%;
+	}
+}
+
+@media(max-width: 450px){
+	
+	.contenedor_navbar{
+		display: none;
+	}
+
+	.menu-amburguesa{
+		display: block;
+		position: absolute;
+		top: 1rem;
+		left: 0.5rem;
+	}
+
+	.contenedor_navbar{
+		width: 100%;
+		height: 70%;
+        display: block;
+		margin: 0 auto;
+        visibility: hidden;
+        top: 0;
+        right: 0;
+        background-color: rgb(37, 35, 35);
+        padding: 2rem;
+        bottom: 0;
+        box-shadow: 0 0 0 18vmax rgba(0, 0, 0, .5);
+	}
+
+	.contenedor_navbar h2{
+		margin-bottom: 2rem;
+	}
+
+	.navbar_licks div{
+		margin-bottom: 2rem;
+	}
+
+	.cerrar{
+		display: block;
+	}
+
+	.butt{
+		display: flex;
+		justify-content: center;
+		margin-top: 5rem;
+	}
+
+	.active{
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.title{
+		margin-top: 12rem;
+	}
+}

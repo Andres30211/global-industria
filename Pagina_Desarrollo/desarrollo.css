@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content{
+    width: 100%;
+    text-align: center;
+}
+
+.content-developmet{
+    display: flex;
+}
+
+.content_img{
+    width: 50%;
+    margin-right: 1rem;
+}
+
+.content-developmet img{
+    width: 100%;
+}
+
+.descript-we{
+    width: 50%;
+}
