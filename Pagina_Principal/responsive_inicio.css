@@ -49,6 +49,10 @@
 		display: block;
 		text-align: center;
 	}
+
+	.carousel{
+		width: 100%;
+	}
 }
 
 @media(max-width: 600px){
@@ -68,10 +72,14 @@
 	.contacto a{
 		width: 30%;
 	}
+
+	.carousel{
+		width: 100%;
+	}
 }
 
 @media(max-width: 450px){
-	
+
 	.contenedor_navbar{
 		display: none;
 	}
@@ -122,5 +130,9 @@
 
 	.title{
 		margin-top: 12rem;
+	}
+
+	.carousel{
+		width: 100%;
 	}
 }

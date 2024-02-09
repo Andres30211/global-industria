@@ -129,7 +129,7 @@ video {
 	justify-content: space-around;
 	position: relative;
 	overflow: hidden;
-	border-radius: 1rem;
+	border-radius: 2rem;
 	border: solid 0.1rem black;
 	margin-right: 1rem;
 }
