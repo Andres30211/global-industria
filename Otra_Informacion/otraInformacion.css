@@ -13,145 +13,27 @@
 	margin-bottom: 2rem;
 }
 
-.content_video{
-	width: 100%;
-	height: 85vh;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 2rem;
-}
-
-.video{
-	position: relative;
-	width: 90%;
-	height: 85vh;
-}
-
-.title_other2{
-	text-align: center;
-	color: black;
-	margin-bottom: 2rem;
-}
-
-.father_zone {
-	width: 100%;
+.contenedor{
 	display: flex;
 	justify-content: center;
 }
 
-.content_zone {
+.column{
 	width: 50%;
-	height: 50%;
-	background-color: rgb(237, 245, 245);
-	border-radius: 0.6rem;
-	cursor: pointer;
-}
-
-.content_zone:hover {
-	background-color: rgb(203, 240, 240);
-}
-
-.zone_drag {
-	padding: 1rem;
-	background-color: aliceblue;
-	cursor: grab;
-	border-radius: 0.5rem;
-}
-
-.zone {
-	width: 40%;
-	margin: 2rem auto 2rem auto;
+	text-align: center;
 	display: flex;
-	justify-content: center;
-	border: 0.1rem solid black;
-	padding: 1rem 2rem;
-	border-radius: 0.5rem;
-	background-color: rgb(181, 134, 224);
+    flex-direction: column;
+    align-items: center;
 }
 
-/*estilos para la explicación del la animación
-						HTML
-  */
-.article_dragDrop {
-	width: 100%;
-	display: flex;
+.column img{
+	width: 50%;
+	height: auto;
 	justify-content: center;
 }
 
-.articles_htmlCssJs {
+.column p{
+	margin-top: 1rem;
 	width: 60%;
-	margin: auto;
-}
-
-.article_html {
-	margin-top: 1rem;
-}
-
-.article_html h2 {
-	text-align: center;
-	color: black;
-}
-
-.article_html p {
-	background-color: rgb(250, 215, 206);
-	padding: 2rem;
-	border-radius: 0.6rem;
-}
-
-.article_html p:hover {
-	background-color: rgb(245, 160, 127);
-	cursor: text;
-}
-
-/*estilos para la explicación del la animación
-						CSS
-  */
-.article_css {
-	margin-top: 1rem;
-}
-
-.article_css h2 {
-	text-align: center;
-	color: black;
-}
-
-.article_css p {
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-	background-color: rgb(242, 242, 253);
-	border-radius: 0.5rem;
-	padding: 2rem;
-}
-
-.article_css p:hover {
-	background-color: rgb(186, 186, 252);
-	cursor: text;
-}
-
-/*estilos para la explicación del la animación
-						JS
-  */
-.article_js {
-	margin-top: 1rem;
-}
-
-.article_js h2 {
-	text-align: center;
-	color: black;
-}
-
-.article_js p {
-	display: flex;
-	justify-content: center;
-	margin-top: 1rem;
-	background-color: rgb(247, 233, 197);
-	border-radius: 0.5rem;
-	padding: 2rem;
-	margin-bottom: 1rem;
-}
-
-.article_js p:hover {
-	background-color: rgb(241, 206, 64);
-	cursor: text;
+	text-align: justify;
 }
